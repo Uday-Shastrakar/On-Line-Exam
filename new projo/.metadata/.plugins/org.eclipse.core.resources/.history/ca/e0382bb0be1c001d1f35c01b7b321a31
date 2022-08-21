@@ -1,0 +1,5 @@
+package com.exam.service.ipmpl;
+
+public class UserDetailsServiceImpl {
+
+}
