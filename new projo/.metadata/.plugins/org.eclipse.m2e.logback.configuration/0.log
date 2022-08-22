@@ -4383,3 +4383,55 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact antlr:antlr:j
 2022-08-21 08:01:42,645 [Worker-10: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-08-21 08:01:42,645 [Worker-10: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-08-21 08:01:42,645 [Worker-10: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Seed Exam Project\new projo\examserver\src\test\resources
+2022-08-21 20:33:32,247 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-08-22 00:34:54,321 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:34:54,330 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:34:54,338 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:34:54,569 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:34:54,574 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:34:54,574 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:34:54,574 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Seed Exam Project\On-Line-Exam\new projo\examserver\src\test\resources
+2022-08-22 00:36:02,333 [Worker-55: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:36:02,333 [Worker-55: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:36:02,338 [Worker-55: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:36:02,708 [Worker-55: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:36:02,811 [Worker-55: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:36:02,811 [Worker-55: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:36:02,811 [Worker-55: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Seed Exam Project\On-Line-Exam\new projo\examserver\src\test\resources
+2022-08-22 00:40:32,476 [Worker-64: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:40:32,476 [Worker-64: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:40:32,477 [Worker-64: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:40:32,508 [Worker-64: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:40:32,512 [Worker-64: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:40:32,512 [Worker-64: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:40:32,512 [Worker-64: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Seed Exam Project\On-Line-Exam\new projo\examserver\src\test\resources
+2022-08-22 00:53:08,491 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:53:08,494 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:53:08,496 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:53:08,617 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:53:08,619 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:53:08,620 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:53:08,620 [Worker-4: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Seed Exam Project\On-Line-Exam\new projo\examserver\src\test\resources
+2022-08-22 00:58:21,516 [Worker-73: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:58:21,516 [Worker-73: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:58:21,517 [Worker-73: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:58:21,632 [Worker-73: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 00:58:21,634 [Worker-73: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 00:58:21,634 [Worker-73: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 00:58:21,634 [Worker-73: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Seed Exam Project\On-Line-Exam\new projo\examserver\src\test\resources
+2022-08-22 01:18:04,252 [Worker-84: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 01:18:04,252 [Worker-84: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 01:18:04,253 [Worker-84: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 01:18:04,296 [Worker-84: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 01:18:04,299 [Worker-84: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 01:18:04,299 [Worker-84: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 01:18:04,300 [Worker-84: Launching examserver - ExamserverApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Seed Exam Project\On-Line-Exam\new projo\examserver\src\test\resources
+2022-08-22 01:18:55,169 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 01:18:55,169 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 01:18:55,170 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 01:18:55,199 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-08-22 01:18:55,200 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-08-22 01:18:55,200 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-08-22 01:18:55,200 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\Seed Exam Project\On-Line-Exam\new projo\examserver\src\test\resources
+2022-08-22 12:12:55,596 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-08-22 13:56:43,734 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
