@@ -63,7 +63,10 @@ public class ExamserverApplication implements CommandLineRunner {
 		}catch(UserFoundException e) {
 			e.printStackTrace();
 		}
+		System.err.println("No Error Found in Project...");
 		System.err.println("Server is Running...");
+		System.out.println("connecting...");
+		
 		
         
 }
