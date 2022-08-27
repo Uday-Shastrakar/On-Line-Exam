@@ -1,11 +1,13 @@
  package com.exam.service.ipmpl;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.exam.model.exam.Category;
 import com.exam.model.exam.Quiz;
 import com.exam.repo.QuizRepository;
 import com.exam.service.QuizService;
@@ -46,6 +48,24 @@ public class QuizServiceImpl implements QuizService{
 		
 	}
 
+	@Override
+	public List<Quiz> getQuizzesOfCategory(Category category) {
+		// TODO Auto-generated method stub
+		return this.quizRepository.findByCategory(category);
+	}
+  // get active quizes
+
+	@Override
+	public List<Quiz> getActiveQuizzes() {
+		// TODO Auto-generated method stub
+		return this.quizRepository.findByActive(b:true);
+	}
+
+	@Override
+	public List<Quiz> getActiveQuizzesOfCategory(Category c) {
+		// TODO Auto-generated method stub
+		return this.quizRepository.findBy
+	}
  	
 	
 }

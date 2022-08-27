@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+
 import com.exam.model.exam.Question;
 import com.exam.model.exam.Quiz;
 import com.exam.service.QuestionService;
@@ -50,7 +51,7 @@ public class QuestionController {
 //    	Set<Question> questionOfQuiz= this.service.getQuestionOfQuiz(quiz);
 //    	return ResponseEntity.ok(questionOfQuiz);
     	
-         Quiz quiz =	this.quizService.getQuiz(qid);
+         Quiz quiz =this.quizService.getQuiz(qid);
          Set<Question> questions = quiz.getQuestions();
          List list =new ArrayList(questions);
          if(list.size()>Integer.parseInt(quiz.getNumberOfQuestions())) {
@@ -61,6 +62,18 @@ public class QuestionController {
          return ResponseEntity.ok(list);
     	
     }
+    @GetMapping("/quiz/all/{qid}")
+    public ResponseEntity<?> getQuestionsOfQuizAdmin(@PathVariable("qid")Long qid){
+       	Quiz quiz=new Quiz();
+     	quiz.setQid(qid);
+    	Set<Question> questionOfQuiz= this.service.getQuestionOfQuiz(quiz);
+    	return ResponseEntity.ok(questionOfQuiz);
+    	
+      
+    //     return ResponseEntity.ok(list);
+    	
+    }
+     
     
     //get single question
     @GetMapping("/{quesId}")
@@ -74,6 +87,6 @@ public class QuestionController {
     	this.service.deleteQuestion(quesId);
     }
     
-    
+   
     
  }

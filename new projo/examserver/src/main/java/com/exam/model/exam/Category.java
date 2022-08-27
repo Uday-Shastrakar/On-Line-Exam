@@ -5,7 +5,7 @@ import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -19,12 +19,12 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Category {
    @Id
    @GeneratedValue(strategy=GenerationType.AUTO)
-   private Long cid;
+   private Long cId;
 
    private String title;
    private String description;
    
-   @OneToMany(mappedBy="category",fetch = FetchType.LAZY,cascade =CascadeType.ALL )
+   @OneToMany(mappedBy="category",cascade =CascadeType.ALL )
    @JsonIgnore
    private Set<Quiz>quizzes=new LinkedHashSet<>();
 
@@ -42,12 +42,12 @@ public Category(String title, String description) {
 
 
 public Long getCid() {
-	return cid;
+	return cId;
 }
 
 
 public void setCid(Long cid) {
-	this.cid = cid;
+	this.cId = cid;
 }
 
 

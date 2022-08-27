@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 public class Question {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long queid;
+	private Long quesId;
 	@Column(length = 5000 )
 	private String content;
 	
@@ -38,21 +38,15 @@ public class Question {
 	public Question() {
 		
 	}
-
-
-
-	public Long getQueid() {
-		return queid;
+	
+	public Long getQuesId() {
+		return quesId;
 	}
-
-
-
-	public void setQueid(Long queid) {
-		this.queid = queid;
+	
+	public void setQuesId(Long quesId) {
+		this.quesId = quesId;
 	}
-
-
-
+	
 	public String getContent() {
 		return content;
 	}

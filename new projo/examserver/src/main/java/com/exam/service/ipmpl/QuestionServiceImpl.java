@@ -50,7 +50,7 @@ public class QuestionServiceImpl implements QuestionService{
 	public void deleteQuestion(Long quesId) {
 		// TODO Auto-generated method stub
 		Question question = new Question();
-		question.setQueid(quesId);
+		question.setQuesId(quesId);
 		this.questionRepository.delete(question);
 		
 	}

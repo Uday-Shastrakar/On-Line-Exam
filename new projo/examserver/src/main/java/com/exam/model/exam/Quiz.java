@@ -4,6 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -18,9 +19,10 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 public class Quiz {
     @Id
     @GeneratedValue(strategy =GenerationType.AUTO)
-	private Long qid;
+	private Long qId;
     
     private String title;
+    @Column(length = 5000)
     private String description;
     
 	private String maxMarks;
@@ -46,10 +48,10 @@ public class Quiz {
 	
 	
 	public Long getQid() {
-		return qid;
+		return qId;
 	}
 	public void setQid(Long qid) {
-		this.qid = qid;
+		this.qId = qid;
 	}
 	public String getTitle() {
 		return title;
