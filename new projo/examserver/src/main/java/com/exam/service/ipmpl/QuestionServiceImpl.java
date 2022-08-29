@@ -55,4 +55,10 @@ public class QuestionServiceImpl implements QuestionService{
 		
 	}
 
+	@Override
+	public Question get(Long questionId) {
+		// TODO Auto-generated method stub
+		return this.questionRepository.getReferenceById(questionId);
+	}
+
 }

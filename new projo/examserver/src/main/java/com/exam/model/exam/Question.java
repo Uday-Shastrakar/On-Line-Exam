@@ -7,6 +7,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import javax.persistence.Transient;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 @Entity
 public class Question {
 	@Id
@@ -27,6 +31,8 @@ public class Question {
 	private String option4;
 	
 	private String answer;
+    @Transient
+	private String givenAnswer;
 	
 	
 	
@@ -118,13 +124,13 @@ public class Question {
 	}
 
 
-
+   
 	public String getAnswer() {
 		return answer;
 	}
 
 
-
+    
 	public void setAnswer(String answer) {
 		this.answer = answer;
 	}
@@ -139,6 +145,14 @@ public class Question {
 
 	public void setQuiz(Quiz quiz) {
 		this.quiz = quiz;
+	}
+
+	public String getGivenAnswer() {
+		return givenAnswer;
+	}
+
+	public void setGivenAnswer(String givenAnswer) {
+		this.givenAnswer = givenAnswer;
 	}
 
 
