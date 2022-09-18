@@ -35,6 +35,12 @@ public class UserController {
 	@Autowired
 	private BCryptPasswordEncoder bCryptPasswordEncoder;
 	
+	@GetMapping("/test")
+	public String test() {
+		return "Welcome to Backend api of Examportal";
+	}
+	
+	
 	//creating user
 	@PostMapping("/")
 	public User createUser(@RequestBody User user) throws Exception {
